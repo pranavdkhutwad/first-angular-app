@@ -1,0 +1,23 @@
+.shorten-url-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shorten-url-container > div {
+    margin-right: 25px;
+}
+
+.output-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.output {
+    width: 500px;
+    height: 300px;
+    border: 5px dotted #FF10B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

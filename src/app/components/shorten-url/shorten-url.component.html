@@ -1,0 +1,13 @@
+<h1 style="text-align: center;">{{ title }}</h1>
+<section class="shorten-url-container">
+    <div>
+        <input type="text" [(ngModel)]="url" class="form-control" />
+        <span style="color: red;">{{ errorMsg }}</span>
+    </div>
+    <div>
+        <button (click)="getShortenUrl()" class="btn btn-primary">Shorten Url</button>
+    </div>
+</section>
+<section class="output-container">
+    <div class="output">{{ shortenUrl }}</div>
+</section>
